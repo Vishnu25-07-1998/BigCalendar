@@ -63,7 +63,6 @@ export default function TaskCalendarWithCheckboxFilter() {
     );
   };
 
-  // Add new event
   const handleSelectSlot = ({ start, end }) => {
     const title = window.prompt('Enter task title:');
     const category = window.prompt('Enter category (Work / Personal / Health):');
